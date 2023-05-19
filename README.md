@@ -12,6 +12,10 @@ To run the Chat Room Analytics application locally, follow these steps:
 4. Start the development server: `npm start`
 5. Open your browser and visit `http://localhost:3000` to access the application.
 
+## WebSocket Communication
+
+The Chat Room Analytics application utilizes WebSocket communication to receive real-time messages from the chat room. The WebSocket connection is established with the following URL: `wss://tso-take-home-chat-room.herokuapp.com`.
+
 ## Dependencies
 
 The following dependencies are used in this project:
@@ -35,11 +39,3 @@ The following scripts are available:
 - `test`: Runs tests using the Jest test runner.
 - `eject`: Ejects the project from `react-scripts`.
 
-## Browser Support
-
-This project is designed to be compatible with modern web browsers. The supported browsers include:
-
-- > 0.2%
-- not dead
-- not ie <= 11
-- not op_mini all
